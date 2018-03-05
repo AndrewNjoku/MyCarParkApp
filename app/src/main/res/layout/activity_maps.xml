@@ -1,0 +1,52 @@
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            tools:context="com.example.andriatae.mymapproject.Activities.MapsActivity" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:onClick="tabClickListener"
+            android:theme="@style/Animation.AppCompat.DropDownUp"
+            android:visibility="visible"
+            app:tabIndicatorColor="@color/favcolour"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="440dp">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/map_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/googlemapsicon"
+                android:onClick="tabClickListener" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/reservation_tab"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="auto"
+                android:icon="@drawable/reservation_icon"
+                android:onClick="tabClickListener" />
+
+        </android.support.design.widget.TabLayout>
+
+
+    </RelativeLayout>

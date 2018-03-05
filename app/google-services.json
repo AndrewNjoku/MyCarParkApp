@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1079804605525",
+    "firebase_url": "https://mymapproject-196616.firebaseio.com",
+    "project_id": "mymapproject-196616",
+    "storage_bucket": "mymapproject-196616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079804605525:android:557cc23a64baad9c",
+        "android_client_info": {
+          "package_name": "com.example.andriatae.mymapproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079804605525-e7rjimf7pirk8aajsq3fr6irlifch2oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg7stZkYqOUuc4xqX5j8tBu-z5ig66BNY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
